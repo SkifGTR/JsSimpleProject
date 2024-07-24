@@ -1,0 +1,8 @@
+const arrObj = {
+    a: 'a',
+    '1': 'b'
+}
+
+arrObj.b = '1234';
+console.log(arrObj.b);
+console.log(arrObj['b']);
